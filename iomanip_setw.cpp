@@ -24,7 +24,7 @@ int main(int argc, char** argv){
     const std::string name("  NAME  ");
     const std::string surname(" SURNAME  ");
     const std::string job(" OCCUPATION ");
-    bool flag = true;
+    bool flag {true};
     
     std::array<std::string, 4> firstNames{"Marlon", "Jakub", "León", "Ezra"};
     std::array<std::string, 4> lastNames{"Couto", "Szyminski", "Navarro", "Heathrer"};
