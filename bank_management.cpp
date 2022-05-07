@@ -109,12 +109,12 @@ int Withdraw::getCounter(){
 	return counter;
 }
 
-enum class State {
+enum State {
 	ACTIVE,
 	INACTIVE
 };
 
-enum class Type {
+enum Type {
 	CURRENT,
 	SAVINGS
 };
@@ -138,18 +138,18 @@ class Account{
 
 Account::Account(){
     category = 2;
-	status = State::ACTIVE;
-	deposit = new Deposit(0.0);
-	withdraw = new Withdraw(0.0);
+    status = std::static_cast<State>(State::ACTIVE);
+    deposit = new Deposit(0.0);
+    withdraw = new Withdraw(0.0);
 }
 
 Type Account::getType(){
 	if(category == 1){
-		type = Type::CURRENT;
+		type = std::static_cast<Type>(Type::CURRENT);
 		return type;
 	}
 	else {
-		type = Type::SAVINGS;
+		type = std::static_cast<Type>(Type::SAVINGS);
 		return type;
 	}
 }
@@ -245,11 +245,9 @@ void Bank::showInformation(){
 
 /*void Bank::depositMoney(){
 	
-
 }
 void Bank::withdrawMoney(){
 }
-
 void Bank::displayAccount(){
 }*/
 		
