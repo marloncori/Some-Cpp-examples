@@ -1,0 +1,7 @@
+g++ -o win32_thread_server win32_thread_server.cpp -lws2_32
+g++ -o win32_thread_client win32_thread_client.cpp -lws2_32
+
+g++ -o asio_server asio_server.cpp -lboost_system
+g++ -o asio_client asio_client.cpp -lboost_system
+
+
