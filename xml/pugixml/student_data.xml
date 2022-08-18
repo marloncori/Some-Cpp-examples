@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<data format_version="1.0">
+  <students>
+     <student type="part-time" first_name="John" last_name="Doe"/>
+
+     <student type="full-time" first_name="Sean" last_name="MacDonald"/>
+
+     <student type="part-time" first_name="Marlon" last_name="Ribeiro"/>
+  </students>
+</data>
+
+  

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+  <student std_type="part-time">
+     <firstname> John </firstname>
+     <lastname> Doe </lastname>
+  </student>
+
+  <student std_type="full-time">
+     <firstname> Sean </firstname>
+     <lastname> MacDonald </lastname>
+  </student>
+
+  <student std_type="part-time">
+     <firstname> Marlon </firstname>
+     <lastname> Ribeiro </lastname>
+  </student>
+</data>
+
+  
