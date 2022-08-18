@@ -88,14 +88,14 @@ void arduino_loop(){
 	std::cout << pause << std::endl;
 	Sleep(500);
 	long highSpeed = 260;
-	motor->setSpeed(highSpeed);*/
+	motor->setSpeed(highSpeed);
 	Sleep(200);
 	
 	distance = hc_sr04->getCollisionDistance();
 	std::cout << "\n ::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::" << std::endl;
 	
 	long lowSpeed = -270;	
-	motor->setSpeed(lowSpeed);*/
+	motor->setSpeed(lowSpeed);
 	Sleep(500);
 	std::cout << line2 << std::endl;
 	distance = hc_sr04->getCollisionDistance();
