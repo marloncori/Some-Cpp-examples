@@ -1,8 +1,10 @@
+ /* This is an incomplete simulation of an obstacle avoiding robot*/
 #include <iostream>
 #include <windows.h>
+// or include <unistd.h> when using a Linux distribution
 
-//#include "Arduino.h"
-//#include "bidirectional_motor.h"
+#include "Arduino.h"
+#include "bidirectional_motor.h"
 #include "ultrasonic_sensor.h"
 
 using namespace millenium::robotics;
@@ -10,36 +12,38 @@ using namespace millenium::robotics;
 constexpr unsigned int trigPin = 8;
 constexpr unsigned int echoPin = 9;
 
-//constexpr unsigned int motorPin = 12;
-//constexpr unsigned int speedPin = 10;
+constexpr unsigned int motorPin = 12;
+constexpr unsigned int speedPin = 10;
 
 std::string start("\n\t >>>> PROGRAM IS ABOUT TO START <<<< ");
 std::string pause("\n\t ====== PROGRAM HAS STOPPED FOR A WHILE ===== ");
 std::string cleanUp("\n\t ::: PROGRAM HAS ENDED ::: ");
 std::string line2("................................................................");
 
-//DC_Motor* motor = new DC_Motor(motorPin, speedPin);
+DC_Motor* motor = new DC_Motor(motorPin, speedPin);
 UltrasonicSensor* hc_sr04 = new UltrasonicSensor(trigPin, echoPin);
+
 unsigned int distance = 0;
 
-void setup();
-void loop();
+void arduino_setup();
+void arduino_loop();
 
-int main(){
+int main(int argc, char* argv[]){
    
    std::cout << start << std::endl;
    Sleep(400);
    
-   setup();
-   loop();
+   arduino_setup();
+   arduino_loop();
    
    std::cout << cleanUp << std::endl;
    
    return 0;
 }
 
-void setup(){
-	/*enum SpeedValue value = SpeedValue::INITIAL;
+void arduino_setup(){
+	// enum test code
+	enum SpeedValue value = SpeedValue::INITIAL;
 	enum SpeedValue value2 = SpeedValue::MAX_FORWARD;
 	enum SpeedValue value3 = SpeedValue::MAX_BACKWARD;
 	
@@ -53,6 +57,7 @@ void setup(){
 	  (value3 == 0 ? "STOPPED" : value3 == 255 ? "MAX_FORWARD" : "MAX_BACKWARD") << "\n\n " << line2 << std::endl;
 	Sleep(1000);
 
+	//second enum test code
 	SpeedDirection dir1 = SpeedDirection::CLOCKWISE;
 	SpeedDirection dir2 = SpeedDirection::COUNTERCLOCKWISE;
 	
@@ -63,38 +68,36 @@ void setup(){
 	    << (dir2 == 1 ? "COUNTERCLOCKWISE" : "CLOCKWISE") <<"\n\n " << line2 << std::endl;
 	Sleep(1000);*/
 
-//	motor->init();		
-//	Sleep(2000);
+        motor->init();		
+        Sleep(2000);
 	hc_sr04->begin();
 	Sleep(400);
 }
 
-void loop(){
+void arduino_loop(){
 	distance = hc_sr04->getCollisionDistance();
 	std::cout << "\n ::::::::::::::::::::::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 	Sleep(500);	
 
-	/*for(long PWM {255}; PWM > 100; PWM -= 45){
-		motor->setSpeed(-PWM);
-		Sleep(1000);	
-    }*/
-	distance = hc_sr04->getCollisionDistance();
-	std::cout << "\n ::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::" << std::endl;
-	
+	for(long PWM {255}; PWM > 100; PWM -= 45){
+	       motor->setSpeed(-PWM);
+	       Sleep(1000);	
+               distance = hc_sr04->getCollisionDistance();
+	       std::cout << "\n ::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::" << std::endl;
+	}
 	std::cout << pause << std::endl;
 	Sleep(500);
-	/*long highSpeed = 260;
+	long highSpeed = 260;
 	motor->setSpeed(highSpeed);*/
 	Sleep(200);
 	
 	distance = hc_sr04->getCollisionDistance();
 	std::cout << "\n ::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::" << std::endl;
 	
-	/*long lowSpeed = -270;	
+	long lowSpeed = -270;	
 	motor->setSpeed(lowSpeed);*/
 	Sleep(500);
 	std::cout << line2 << std::endl;
 	distance = hc_sr04->getCollisionDistance();
 	std::cout << "\n ::::::::::::::::::::::::::::::::::\n HC-SR04 Ultrasonic sensor has read this distance: " << distance << " cm.\n ::::::::::::::::::::::::::::::::::" << std::endl;
 }
-
