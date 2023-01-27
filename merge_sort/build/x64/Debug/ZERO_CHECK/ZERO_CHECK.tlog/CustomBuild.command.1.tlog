@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\MERGE_SORT\BUILD\CMAKEFILES\27BB9445A5BEAAC42AF9952F34DF94EA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/merge_sort -BC:/Users/NUC/Desktop/src/merge_sort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/merge_sort/build/merge_sort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

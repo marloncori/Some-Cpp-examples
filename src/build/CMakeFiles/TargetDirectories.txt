@@ -1,0 +1,3 @@
+C:/Users/NUC/Desktop/src/src/build/CMakeFiles/binary_search_test.dir
+C:/Users/NUC/Desktop/src/src/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/NUC/Desktop/src/src/build/CMakeFiles/ZERO_CHECK.dir

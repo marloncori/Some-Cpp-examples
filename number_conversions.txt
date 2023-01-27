@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main()
+{
+    // String to be parsed
+    std::string str = "107.80";
+    std::string str2 = "1000";
+    
+    // val to store parsed floating type number
+    int val0 = std::stoi(str);
+    float val = std::stof(str);
+    double val2 = std::stod(str2);
+    long double val3 = std::stold(str2);
+
+    // Printing parsed floating type number
+    std::cout << val0 << std::endl;
+    std::cout << val << std::endl;
+    std::cout << val2 << std::endl; 
+    std::cout << val3 << std::endl;
+    
+  return 0;
+}

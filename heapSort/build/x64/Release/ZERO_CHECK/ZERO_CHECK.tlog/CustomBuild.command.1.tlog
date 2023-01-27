@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\HEAPSORT\BUILD\CMAKEFILES\DAA4DEF3D8E988BE2F5EE40DAB838401\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/heapSort -BC:/Users/NUC/Desktop/src/heapSort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/heapSort/build/heapSort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

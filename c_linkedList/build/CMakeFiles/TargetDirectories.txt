@@ -1,0 +1,3 @@
+C:/Users/NUC/Desktop/src/c_linkedList/build/CMakeFiles/linkedList.dir
+C:/Users/NUC/Desktop/src/c_linkedList/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/NUC/Desktop/src/c_linkedList/build/CMakeFiles/ZERO_CHECK.dir

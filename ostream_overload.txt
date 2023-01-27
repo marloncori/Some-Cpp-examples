@@ -1,0 +1,26 @@
+// Example program
+#include <iostream>
+#include <string>
+
+struct Point {
+   Point(int a, int b) : x(a), y(b) { }
+   int x;
+   int y;
+};
+
+std::ostream& operator<<(std::ostream& os, const Point& p)
+{
+    os << " Point { \n\t x: " << p.x << "\n\t y: " << p.y << "\n }\n";
+    return os;
+}
+
+int main()
+{
+  Point point {3, 5};
+  std::cout << point;
+  
+  Point point2 {7, 9};
+  std::cout << point2;
+  
+  return 0;
+}

@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/MySQL/MySQL Server 8.0/include"
+                //"C:/Program File/MySQL/MySQL Server 8.0/lib"
+                //"C:/Program Files/MySQL/Connector C++ 8.0/include"
+                //"C:/Program Files/MySQL/Connector C++ 8.0/lib64"
+            ],
+            "browse": {
+                "path": [
+                  "C:/Program Files/MySQL/MySQL Server 8.0/include/**"
+                  //"C:/Program Files/MySQL/Connector C++ 8.0/include/**",
+                  //"C:/Program Files/MySQL/Connector C++ 8.0/lib64/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x86",
+            "configurationProvider": "ms-vscode.cpptools",
+            "compilerPath": "C:/MingW/bin/g++.exe",
+            //"compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            //"compilerPath": "C:/msys64/mingw64/bin/c++.exe",
+            //"compilerPath": "C:/msys64/mingw64/bin/cpp.exe",
+        
+            "compilerArgs": [
+                "-g ",
+                "-Wall ",
+                "-I \"C:\\Program Files\\MySQL\\MySQL Server 8.0\\include\" ",
+                "-I \"C:\\Program Files\\MySQL\\MySQL Server 8.0\\include\\mysql\" ",
+                //"-I \"C:\\Program Files\\MySQL\\Connector C++ 8.0\\include\"",
+                //"-L \"C:\\Program Files\\MySQL\\Connector C++ 8.0\\lib64\"",
+                "-L \"C:\\Program Files\\MySQL\\MySQL Server 8.0\\include\\lib\"",
+                "-lmysql"
+                //"-lmysqlcppconn"
+            ]
+        }
+    ],
+    "version": 4
+}

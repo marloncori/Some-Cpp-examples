@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\BST\BUILD\CMAKEFILES\2CAF49A91923AADF56A77A37163469AC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/bst -BC:/Users/NUC/Desktop/src/bst/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/bst/build/bst.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

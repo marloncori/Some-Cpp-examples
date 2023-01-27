@@ -1,0 +1,4 @@
+C:/Users/NUC/Desktop/src/searching/build/CMakeFiles/max_search.dir
+C:/Users/NUC/Desktop/src/searching/build/CMakeFiles/max_sorting.dir
+C:/Users/NUC/Desktop/src/searching/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/NUC/Desktop/src/searching/build/CMakeFiles/ZERO_CHECK.dir

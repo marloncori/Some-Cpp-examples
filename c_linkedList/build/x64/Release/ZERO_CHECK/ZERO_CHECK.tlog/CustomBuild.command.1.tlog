@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\C_LINKEDLIST\BUILD\CMAKEFILES\06E8FEC8E2F366322902DA68C5969755\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/c_linkedList -BC:/Users/NUC/Desktop/src/c_linkedList/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/c_linkedList/build/linkedList.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

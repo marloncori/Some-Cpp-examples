@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\MERGEINSERTSORT\BUILD\CMAKEFILES\E898AB5CEEA3E4D8D5D23373A4C9E0EC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/mergeInsertSort -BC:/Users/NUC/Desktop/src/mergeInsertSort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/mergeInsertSort/build/mergeInsertSort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

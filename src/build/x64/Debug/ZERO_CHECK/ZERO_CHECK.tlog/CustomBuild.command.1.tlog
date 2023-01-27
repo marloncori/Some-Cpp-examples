@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\SRC\BUILD\CMAKEFILES\8FDD3F3CAFAF7140D7CEC4CF7F1C92E7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/src -BC:/Users/NUC/Desktop/src/src/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/src/build/binary_search.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

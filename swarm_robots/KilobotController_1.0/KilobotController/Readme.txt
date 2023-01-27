@@ -1,0 +1,1 @@
+To prepare the program for use start the application KiloBot Controller and go to Menu->Help->Installation. 

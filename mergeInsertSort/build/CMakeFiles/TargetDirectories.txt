@@ -1,0 +1,3 @@
+C:/Users/NUC/Desktop/src/mergeInsertSort/build/CMakeFiles/mergeInsertSort.dir
+C:/Users/NUC/Desktop/src/mergeInsertSort/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/NUC/Desktop/src/mergeInsertSort/build/CMakeFiles/ZERO_CHECK.dir

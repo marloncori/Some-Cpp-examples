@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\QUICKSORT\BUILD\CMAKEFILES\F980315BD6822C7874A86A2E26231777\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/quickSort -BC:/Users/NUC/Desktop/src/quickSort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/quickSort/build/quickSort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

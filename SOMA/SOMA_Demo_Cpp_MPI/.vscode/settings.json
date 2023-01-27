@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "type_traits": "cpp",
+        "*h*hinitializer_list": "cpp",
+        "utility": "cpp",
+        "initializer_list": "cpp",
+        "*h*harray": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "algorithm": "cpp",
+        "*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hppfunctional": "cpp",
+        "*htuple": "cpp",
+        "*h*h*hsystem_error": "cpp",
+        "system_error": "cpp",
+        "string": "cpp",
+        "*h*h*h*h*h*h*h*h*h*h*h*hinitializer_list": "cpp",
+        "unordered_map": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "sstream": "cpp"
+    }
+}

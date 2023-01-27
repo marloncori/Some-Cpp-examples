@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\NUC\Desktop\src\3DPoint\build\CMakeFiles\a1ee27871a7109aede6fed8c4bfdabeb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{61FD2D59-2BFB-3009-8B6F-4E5895DFDC69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+PRODUCT NUMBER: 41  5.7
+PRODUCT NAME: Raspberry Pi 4
+PRODUCT RATE: 5.9
+---------------------------------------
+PRODUCT NUMBER: 57  
+PRODUCT NAME: Intel NUC i7 16 GB RAM
+PRODUCT RATE: 0.7
+---------------------------------------
+PRODUCT NUMBER: 89
+PRODUCT NAME: Arduino Sense
+PRODUCT RATE: 4.3
+---------------------------------------
+PRODUCT NUMBER: 31 
+PRODUCT NAME: ESP-32-S3 WROOM
+PRODUCT RATE: 5.1
+---------------------------------------
+PRODUCT NUMBER: 37 
+PRODUCT NAME: RockPi 5
+PRODUCT RATE: 3.4
+---------------------------------------
+PRODUCT NUMBER: 15  
+PRODUCT NAME: Radxa Zero 4GB RAM
+PRODUCT RATE: 0.78
+---------------------------------------
+PRODUCT NUMBER: 74 
+PRODUCT NAME: ESP-8266 
+PRODUCT RATE: 7.8
+---------------------------------------

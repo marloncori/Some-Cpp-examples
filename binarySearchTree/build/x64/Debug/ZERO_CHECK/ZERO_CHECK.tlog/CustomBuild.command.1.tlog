@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\BINARYSEARCHTREE\BUILD\CMAKEFILES\7E48EC388A00684BA74B75161064916F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/binarySearchTree -BC:/Users/NUC/Desktop/src/binarySearchTree/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/binarySearchTree/build/binarySearchTree.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

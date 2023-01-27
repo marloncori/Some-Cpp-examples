@@ -1,0 +1,361 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2022. 05. 03. 20:07:40.
+Project "C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.21
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/NUC/Desktop/src/hashTable/build/CMakeFiles/3.22.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2022. 05. 03. 20:07:44.
+Project "C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/NUC/Desktop/src/hashTable/build/CMakeFiles/3.22.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/NUC/Desktop/src/hashTable/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_99ee8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.29.30140 dla x64
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99ee8.dir\Debug\\" /Fd"cmTC_99ee8.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+  cmTC_99ee8.vcxproj -> C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\CMakeTmp\Debug\cmTC_99ee8.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/NUC/Desktop/src/hashTable/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_c75a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.29.30140 dla x64
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c75a4.dir\Debug\\" /Fd"cmTC_c75a4.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_c75a4.vcxproj -> C:\Users\NUC\Desktop\src\hashTable\build\CMakeFiles\CMakeTmp\Debug\cmTC_c75a4.exe
+
+
+
+Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.29.30140 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+
+                         OPCJE KOMPILATORA C/C++
+
+
+                              -OPTYMALIZACJA-
+
+/O1 - maksymalne optymalizacje (preferuj miejsce)
+/O2 - maksymalne optymalizacje (preferuj szybkość)
+/Ob<n> ekspansja w tekście (domyślne n=0)
+/Od wyłącz optymalizacje (domyślna)     /Og włącz globalną optymalizację
+/Oi[-] włącz funkcje wewnętrzne         /Os preferuj rozmiar kodu
+/Ot preferuj prędkość kodu              /Ox - optymalizacje (preferuj szybkość)
+/favor:<blend|AMD64|INTEL64|ATOM> wybierz procesor docelowy optymalizacji, jeden z:
+    blend - kombinacja optymalizacji dla różnych procesorów x64
+    AMD64 - 64-bitowe procesory AMD                                 
+    INTEL64 - procesory o architekturze Intel(R)64                  
+    ATOM - procesory Intel(R) Atom(TM)                           
+
+                             -GENEROWANIE KODU-
+
+/Gu[-] zapewnienie różnych adresów dla różnych funkcji
+/Gw[-] oddzielne zmienne globalne dla konsolidatora
+/GF włącz buforowanie ciągów tylko do odczytu
+/Gm[-] włącz minimalną ponowną kompilację
+/Gy[-] oddziel funkcje dla konsolidatora/GS[-] włącz sprawdzanie zabezpieczeń
+/GR[-] włącz C++ RTTI                   /GX[-] włącz C++ EH (tak samo jak /EHsc)
+/guard:cf[-] włącz CFG (ochrona przepływu sterowania)
+/guard:ehcont[-] włącz metadane kontynuacji EH (CET)
+/EHs włącz C++ EH (bez wyjątków SEH)    /EHa włącz C++ EH (z wyjątkami SEH)
+/EHc zewnętrzne "C" o wartości domyślnej nothrow
+/EHr zawsze generuj operacje sprawdzania zakończenia środowiska uruchomieniowego noexcept
+/fp:<except[-]|fast|precise|strict> wybierz model zmiennoprzecinkowy:
+    except[-] - uwzględnij wyjątki zmiennoprzecinkowe podczas generowania kodu
+    fast - model zmiennoprzecinkowy "fast"; wyniki są mniej przewidywalne
+    precise - model zmiennoprzecinkowy "precise"; wyniki są przewidywalne
+    strict - model zmiennoprzecinkowy "strict" (implikuje przełącznik /fp:except)
+/Qfast_transcendentals wygeneruj wbudowane wskaźniki FP nawet z przełącznikiem /fp:except
+/Qspectre[-] włącz zapobieganie zagrożeniu CVE 2017-5753
+/Qpar[-] włącz równoległe generowanie kodu
+/Qpar-report:1 diagnostyka zrównoleglenia automatycznego; wskazuj zrównoleglone pętle
+/Qpar-report:2 diagnostyka zrównoleglenia automatycznego; wskazuj niezrównoleglone pętle
+/Qvec-report:1 diagnostyka wektoryzowania automatycznego; wskazuj zwektoryzowane pętle
+/Qvec-report:2 diagnostyka wektoryzowania automatycznego; wskazuj niezwektoryzowane pętle
+/GL[-] włącz generowanie kodu w czasie konsolidacji
+/volatile:<iso|ms> wybierz model nietrwały:
+    iso - semantyka uzyskiwania/wydawania niegwarantowana przy dostępach nietrwałych
+    ms - semantyka uzyskiwania/wydawania gwarantowana przy dostępach nietrwałych
+/GA optymalizuj dla aplikacji systemu Windows
+/Ge wymuś sprawdzanie stosu dla wszystkich funkcji
+/Gs[num] kontroluj wywołania sprawdzania stosu
+/Gh włącz wywołanie funkcji _penter     /GH włącz wywołanie funkcji _pexit
+/GT generuj dostępy TLS bezpieczne dla włókna
+/RTC1 Włącz szybkie sprawdzanie (/RTCsu)
+/RTCc Konwertuj do sprawdzania mniejszych typów
+/RTCs sprawdzanie ramki stosu w trakcie wykonania
+/RTCu Sprawdzenie niezainicjowanych lokalnych użyć
+/clr[:option] kompiluj dla środowiska uruchomieniowego języka wspólnego, gdzie opcją jest:
+    pure: produkuj plik wyjściowy tylko za pomocą IL (brak natywnego kodu wykonywalnego)
+    safe: produkuj plik wyjściowy weryfikowalny tylko za pomocą IL
+    netcore: twórz zestawy przeznaczone dla środowiska uruchomieniowego platformy .NET Core
+    noAssembly: nie produkuj zestawu    
+    nostdlib: ignoruj systemowy katalog struktury .NET podczas wyszukiwania zestawów
+    nostdimport: nie importuj żadnych wymaganych zestawów niejawnie
+    initialAppDomain: włącz początkowe zachowanie domeny aplikacji Visual C++ 2002
+    implicitKeepAlive: wyłącz niejawną emisję systemu:: GC::KeepAlive(this)
+/fsanitize=adres Włącz generowanie kodu modułu czyszczącego adresy
+/homeparams wymuś aby parametry przekazywane w rejestrach były zapisywane na stos
+/GZ Włącz sprawdzanie stosu (/RTCs)     /Gv __vectorcall konwencja wywoływania
+/arch:<AVX|AVX2|AVX512> minimalne wymagania dotyczące architektury procesora, jedno z:
+   AVX - zezwalaj na używanie instrukcji dostępnych dla procesorów z włączoną obsługą technologii AVX
+   AVX2 - zezwalaj na używanie instrukcji dostępnych dla procesorów z włączoną obsługą technologii AVX2
+   AVX512 - zezwalaj na używanie instrukcji dostępnych dla procesorów z włączoną obsługą technologii AVX512
+/QIntel-jcc-erratum włącz kroki zaradcze dla erraty Intel JCC
+/Qspectre-Load Włącz kroki zaradcze dotyczące luki Spectre dla wszystkich instrukcji ładujących pamięć
+/Qspectre-load-cf Włącz kroki zaradcze dotyczące luki Spectre dla wszystkich instrukcji przepływu sterowania ładujących pamięć
+/fpcvt:<IA|BC> Zgodność konwersji wartości FP na liczby całkowite bez znaku
+   IA - wyniki zgodne z instrukcją VCVTTSD2USI
+   BC - wyniki zgodne z kompilatorem programu VS2017 i wcześniejszych
+
+                              -PLIKI WYJŚCIOWE-
+
+/Fa[plik] nazwij plik listingu asemblera/FA[scu] konfiguruj listę zestawu
+/Fd[plik] nazwij plik .PDB              /Fe<plik> nazwij plik wykonywalny
+/Fm[plik] nazwij plik mapy              /Fo<plik> nazwij plik obiektu
+/Fp<plik> nazwij prekompilowany plik nagłówkowy
+/Fr[plik] nazwij plik przeglądarki źródła
+/FR[plik] nazwij rozszerzony plik .SBR  
+/Fi[plik] nazwij wstępnie przetworzony plik
+/Fd: <plik> nazwij plik .PDB            /Fe: <plik> nazwij plik wykonywalny
+/Fm: <plik> nazwij plik mapy            /Fo: <plik> nazwij plik obiektu
+/Fp: <plik> nazwij plik .PCH            /FR: <plik> nazwij rozszerzony plik .SBR
+/Fi: <plik> nazwij wstępnie przetworzony plik
+/Ft<dir> lokalizacja plików nagłówka generowanych dla elementu #import
+/doc[file] przetwarzaj komentarze dokumentacji XML i opcjonalnie nazwij plik .xdc
+
+                              -PREPROCESSOR-
+
+/AI<katalog> dodaj do ścieżek wyszukiwania zestawu
+/FU<plik> wymuszone zestawu/modułu      /C nie dziel komentarzy
+/D<nazwa>{=|#}<tekst> zdefiniuj makro   /E wstępnie przetwórz do stdout
+/EP wstępnie przetwórz do stdout, nie #line
+/P wstępnie przetwórz do pliku          /Fx scal wstrzyknięty kod do pliku
+/FI<plik> nazwij wymuszony plik załączany
+/U<nazwa> usuń predefiniowane makro     /u usuń wszystkie predefiniowane makra
+/I<katalog> dodaj do ścieżki wyszukiwania załączania
+/X Ignoruj "standardowe miejsca"        
+/PH generuj dyrektywę #pragma file_hash podczas przetwarzania wstępnego
+/PD drukuj wszystkie definicje makr     
+
+                                -JĘZYK-
+
+/std:<c++14|c++17|c++latest> standardowa wersja języka C++
+    c++14 - ISO/IEC 14882:2014 (domyślna)
+    c++17 - ISO/IEC 14882:2017
+    c++latest - najnowsza wersja robocza standardu (zestaw funkcji może ulec zmianie)
+/permissive[-] włącz niezgodny kod do skompilowania (zestaw funkcji może ulec zmianie) (domyślnie ten element jest włączony)
+/Ze włącz rozszerzenia (domyślnie)      /Za wyłącz rozszerzenia
+/ZW włącz rozszerzenia językowe WinRT   /Zs sprawdzaj tylko składnię
+/Zc:arg1[,arg2] zgodność języka C++, gdzie argumentami mogą być:
+  forScope[-]           wymuszaj standard C++ dla reguł ustawiania zakresu
+  wchar_t[-]            wchar_t jest typem natywnym, a nie typem typedef
+  auto[-]               wymuszaj nowe znaczenie standardu C++ dla słowa kluczowego auto
+  trigraphs[-]          włącz elementy trigraph (domyślnie ten element jest wyłączony)
+  rvalueCast[-]         wymuszaj jawne reguły konwersji typów standardu C++
+  strictStrings[-]      wyłącz konwersję literału ciągu do [char|wchar_t]*
+                        (domyślnie ten element jest wyłączony)
+  implicitNoexcept[-]   włącz niejawny modyfikator noexcept dla funkcji wymaganych
+  threadSafeInit[-]     włącz wątkowo bezpieczne inicjowanie lokalnych elementów static
+  inline[-]             usuń funkcję lub dane bez odwołań, jeśli to sekcja
+                        COMDAT lub jeśli zawierają tylko powiązanie wewnętrzne (domyślnie ten element jest wyłączony)
+  sizedDealloc[-]       włącz funkcje cofania alokacji o rozmiarze globalnych w języku C++14
+                        (domyślnie ten element jest włączony)
+  throwingNew[-]        założenie użycia nowego operatora powoduje zgłoszenie błędu (domyślnie ten element jest wyłączony)
+  referenceBinding[-]   wartość tymczasowa nie zostanie powiązana z niestałym
+                        odwołaniem do wartości lvalue (domyślnie ten element jest wyłączony)
+  twoPhase-             wyłącz dwufazowe wyszukiwanie nazw
+  ternary[-]            wymuszaj reguły języka C++11 dla operatora warunkowego (domyślnie ten element jest wyłączony)
+  noexceptTypes[-]      wymuszaj reguły noexcept języka C++17 (włączone domyślnie w języku C++17 i nowszych)
+  alignedNew[-]         włącz wyrównywanie obiektów przydzielanych dynamicznie w języku C++17 (domyślnie ten element jest włączony)
+  hiddenFriend[-]       wymuszaj ukryte reguły zaprzyjaźnione standardowego języka C++ (wskazywane przez opcję /permissive-)
+  externC[-]            wymuszaj reguły standardowego języka C++ dla funkcji extern języka C (wskazywane przez opcję /permissive-)
+  lambda[-]             ulepszona obsługa wyrażeń lambda przy użyciu nowszego procesora wyrażeń lambda (domyślnie wyłączona)
+  tlsGuards[-]          generuj testy w czasie wykonywania dotyczące inicjowania zmiennych TLS (domyślnie włączone)
+  zeroSizeArrayNew[-]   wywołaj operację new/delete na składowej dla tablic obiektów o rozmiarze 0 (domyślnie włączone)
+Rozszerzenie funkcji wznawialnej z obsługą /await
+standardowa obsługa koprocedury C++ 20 z obsługą /await:strict w starszych wersjach językowych
+/constexpr:depth<N>     limit głębokości rekursji dla wyrażeń constexpr (domyślnie: 512)
+/constexpr:backtrace<N> pokaż <N> ocen wyrażeń constexpr w diagnostyce (domyślnie: 10)
+/constexpr:steps<N>     zakończ obliczanie wyrażenia constexpr po N krokach (domyślnie: 100 000)
+/Zi włącz informacje o debugowaniu      
+/Z7 włącz informacje o debugowaniu w starym stylu
+/Zo[-] generuj bardziej szczegółowe informacje dotyczące debugowania dla zoptymalizowanego kodu (domyślnie ten element jest włączony)
+/ZH:[MD5|SHA1|SHA_256] algorytm wyznaczania wartości skrótu na potrzeby obliczania sumy kontrolnej pliku w informacjach debugowania (domyślnie: MD5)
+/Zp[n] spakuj struktury w n-bajtowe granice
+/Zl pomiń domyślną nazwę biblioteki w .OBJ
+/vd{0|1|2} wyłącz/włącz vtordisp        
+/vm<x> typ wskaźników do elementów członkowskich
+/std:<c11|c17> C w wersji standardowej
+    c11 - ISO/IEC 9899:2011
+    c17 - ISO/IEC 9899:2018
+/ZI włącz informacje debugowania Edytuj i kontynuuj
+/openmp włącz rozszerzenia języka OpenMP 2.0.
+/openmp:experimental włącz rozszerzenia języka OpenMP 2.0 oraz wybrane rozszerzenia języka OpenMP w wersji 3.0 lub nowszej
+/openmp:llvm Rozszerzenia języka OpenMP używające środowiska uruchomieniowego LLVM
+
+                              -RÓŻNE-
+
+@<file> plik odpowiedzi opcji           /?./help drukuje tą wiadomość pomocy
+/bigobj generuje rozszerzony format obiektu
+/c tylko skompiluj, nie łącz            
+/errorReport: opcja przestarzała. Zgłoś wewnętrzne błędy kompilatora do firmy Microsoft
+    brak - nie wysyłaj raportu                
+    monit - monituj o natychmiastowe wysłanie raportu
+    kolejka - przy kolejnym zalogowaniu administratora, monituj o wysłanie raportu (domyślnie)
+    send - wyślij raport automatycznie         
+/FC użyj pełnych nazw ścieżek w diagnostyce
+/H<liczba> maksymalna długość zewnętrznej nazwy
+/J domyślnym typem znaku jest typ bez znaku
+/MP[n] użyj do "n" procesów do kompilacji
+/nologo Pomijaj komunikaty o prawach autorskich
+/showIncludes pokaż nazwy załączonych plików
+/Tc<plik źródłowy> skompiluj plik jako .c
+/Tp<plik źródłowy> skompiluj jako plik .cpp
+/TC kompiluj wszystkie pliki jako .c    /TP kompiluj wszystkie pliki jako .cpp
+/V<ciąg> ustaw ciąg wersji              /Yc[plik] stwórz plik .PCH
+/Yd wprowadź informacje o debugowaniu w każdym .OBJ
+/Yl[sym] wstrzyknij odwołanie .PCH do biblioteki debugowania
+/Yu[plik] użyj pliku .PCH               /Y- wyłącz wszystkie opcje PCH
+/Zm<n> maksymalna alokacja pamięci (% domyślnej)
+/F5 wymuś użycie MSPDBSRV.EXE           
+/source-charset:<nazwa iana>|.nnnn ustaw zestaw znaków źródła
+/execution-charset:<nazwa iana>|.nnnn ustaw zestaw znaków źródła
+/utf-8 ustaw zestaw znaków źródła i wykonania na UTF-8
+/validate-charset[-] weryfikowanie plików UTF-8 pod kątem występowania tylko dozwolonych znaków
+/fastfail[-] włącz tryb fast-fail       /JMC[-] włącz natywny tylko mój kod
+/presetPadding[-] zerowe inicjowanie wypełnienia dla typów klasy opartych na stosie
+opcja /volatileMetadata [-] generuje metadane w przypadku uzyskiwania dostępów do pamięci nietrwałej
+
+                                -KONSOLIDACJA-
+
+/LD Stwórz .DLL                         /LDd Stwórz bibliotekę debugowania .DLL
+/LN Stwórz .netmodule                   /F<liczba> ustaw rozmiar stosu
+/link [opcje konsolidatora i biblioteki]/MD połącz z MSVCRT.LIB
+/MT połącz z LIBCMT.LIB                 
+/MDd połącz z biblioteką debugowania MSVCRTD.LIB
+/MTd połącz z biblioteką debugowania LIBCMTD.LIB
+
+                              -ANALIZA KODU-
+
+/analyze[-] włącz analizę kodu          
+/analyze:quiet[-] Brak ostrzeżenia na konsoli
+/analyze:log<nazwa> Ostrzeżenia do pliku
+/analyze:autolog Zapisz dziennik do pliku *.pftlog
+/analyze:autolog:ext<ext> Zapisz dziennik do *.<ext>
+/analyze:autolog- Brak pliku dziennika  /analyze:WX- Ostrzeżenia nie krytyczne
+/analyze:stacksize<liczba> Maksymalna ramka stosu
+/analyze:max_paths<liczba> Maksymalne ścieżki
+/analyze:only Analizuj bez generacji kodu
+
+                              -DIAGNOSTYKA-
+
+/diagnostics:<argumenty,...> steruje formatem komunikatów diagnostycznych:
+             classic   - zachowuje wcześniejszy format
+             column[-] - drukuje informacje o kolumnie
+             caret[-] - drukuje kolumnę i wskazany wiersz źródła
+/Wall włącz wszystkie ostrzeżenia       /w   wyłącz wszystkie ostrzeżenia
+/W<n> ustaw poziom ostrzeżenia (domyślnie n=1)
+/Wv:xx[.yy[.zzzzz]] wyłącz ostrzeżenia wprowadzone po wersji xx.yy.zzzzz
+/WX Traktuj ostrzeżenia jako błędy      /WL włącz diagnostyki w jednej linii
+/wd<n> wyłącz ostrzeżenie n             /we<n> Traktuj ostrzeżenie n jako błąd
+/wo<n> traktuj ostrzeżenie n jako problem raz
+/w<l><n> ustaw poziom ostrzeżenia 1-4 dla n
+/external:I <ścieżka>     - lokalizacja nagłówków zewnętrznych
+/external:env:<zmienna>    - zmienna środowiskowa z lokalizacjami nagłówków zewnętrznych
+/external:anglebrackets - traktuj wszystkie nagłówki dołączone w znakach <> jako zewnętrzne
+/external:W<n>         - poziom ostrzeżeń dla nagłówków zewnętrznych
+/external:templates[-] - oceń poziom ostrzeżeń w łańcuchu tworzenia wystąpienia szablonu
+/sdl włącz dodatkowe funkcje zabezpieczeń i ostrzeżenia
+

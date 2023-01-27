@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\INSERTSORT\BUILD\CMAKEFILES\DA64BA623B9A9E4BD5630F89E391EFF0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/insertSort -BC:/Users/NUC/Desktop/src/insertSort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/insertSort/build/insertSort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

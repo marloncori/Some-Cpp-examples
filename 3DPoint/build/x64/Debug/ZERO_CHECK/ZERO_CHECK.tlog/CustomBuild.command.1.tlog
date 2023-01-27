@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\3DPOINT\BUILD\CMAKEFILES\A1EE27871A7109AEDE6FED8C4BFDABEB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/3DPoint -BC:/Users/NUC/Desktop/src/3DPoint/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/3DPoint/build/point3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

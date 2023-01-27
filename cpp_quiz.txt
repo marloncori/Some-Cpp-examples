@@ -1,0 +1,32 @@
+A SHORT QUIZZ ABOUT C++
+  by Marlon Couto Ribeiro
+1. The default access specifer for the class members is
+A - public
+B - private
+C - protected
+D - None of the above.
+answer: B
+2. Float data type stores up to ____ decimal digits.
+A - 5
+B - 19 
+C - 15
+D - 7
+answer: D
+3 - Which is the storage specifier used to modify the member variable even though the class object is a constant object?
+A - auto
+B - register
+C - mutable
+D - static
+answer: C
+4. What is the full form of RTTI.
+A - Runtime type identification
+B - Runtime template identification
+C - Robust Template Type Inheritance
+D - None of the above.
+answer: A
+5. Where is the std::string stored?
+A - in heap
+B - in stack
+C - in stack (small string), in headp (big string)
+D - it is not stored at all
+answer: C

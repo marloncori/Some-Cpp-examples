@@ -1,0 +1,46 @@
+install qt
+
+https://www.c-sharpcorner.com/article/application-programming-using-cpp-and-qt/
+
+management systems in C++
+
+https://github.com/code-chaser/hospital-management-system
+
+https://github.com/Dhruvacube/railway-management
+
+https://github.com/void0x11/Hotel-Management-System
+
+https://github.com/PeterHUistyping/Supermarket-Management-System
+
+https://github.com/the-coding-machine/TravelAgencyC-
+
+https://github.com/nlzza/Online-shopping-system
+
+https://github.com/binaryassasins/Library-Mgmt-System/blob/main/Library_Management_System.cpp
+
+https://github.com/AteeqRana7/Restaurant-Management-System/blob/main/RestaurantManagementSystem.cpp
+
+https://github.com/sriganeshlokesh/hospital_management_system/blob/master/ConsoleApplication1-1.cpp
+
+https://github.com/rahulsuresh-git/Supermarket-Management-System_CPP/blob/master/project.cpp
+
+https://github.com/Lucifergene/COLLEGE-MANAGEMENT-SYSTEM/blob/master/student_library_faculty.cpp
+
+https://github.com/AkosoCodes/Library-Management-System/blob/main/main.cpp
+
+https://github.com/banrjee/Banking
+
+https://github.com/amulifts/bank-management-system-cpp/blob/master/main.cpp
+
+https://github.com/HetDaftary/CPP-E-COMMERCE-PROGRAM
+
+QT based
+https://github.com/SyedGhazanferAnwar/Student-Managment-System-on-QT
+
+https://github.com/nvoronin1337/Database-Management-System
+
+https://github.com/aadarshadhakalg/HMS
+
+https://github.com/ShivCharanSharma/GUI-based-Bank-Management-System
+
+https://github.com/AmrElsersy/Library-Management-System

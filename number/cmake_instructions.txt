@@ -1,0 +1,12 @@
+# AFTER UPDATING CMAKELISTS.TXT TYPE THIS FROM
+# BUILD FOLDER:
+
+$> cmake  <option> ..
+    (option: -G "NMake Makefiles", or "Ninja Makefiles", 
+            "MinGW Makefiles" and so on
+
+# AND THEN TYPE THIS WITH THE TARGET NAME, E.G.:
+$> cmake.exe --build . \
+   --config Release  \ #or Debug 
+     --target <project_name>
+                         

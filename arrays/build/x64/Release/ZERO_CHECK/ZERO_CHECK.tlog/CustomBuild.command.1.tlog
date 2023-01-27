@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\ARRAYS\BUILD\CMAKEFILES\878CB8FCEA67682F1279A18E7587EAA9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/arrays -BC:/Users/NUC/Desktop/src/arrays/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/NUC/Desktop/src/arrays/build/largest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\NUC\DESKTOP\SRC\C_LINKEDLIST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NUC/Desktop/src/c_linkedList -BC:/Users/NUC/Desktop/src/c_linkedList/build --check-stamp-file C:/Users/NUC/Desktop/src/c_linkedList/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
